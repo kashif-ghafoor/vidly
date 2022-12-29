@@ -24,7 +24,9 @@ class Movies extends Component {
     input: "",
   };
   componentDidMount() {
+    console.log("getting data from database");
     this.setState({ movies: getMovies(), genres: getGenres() });
+    console.log("got data from database");
   }
   styles = {
     fontSize: 20,
@@ -98,7 +100,7 @@ class Movies extends Component {
             value={this.state.input}
             onChange={this.handleInputChange}
           />{" "}
-          // TODO
+         {/* // TODO*/}
           <MoviesTable
             movies={movies}
             sortColumn={sortColumn}
