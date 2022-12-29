@@ -4,6 +4,5 @@
 React | Bootstrap
 
 ### Demo:
-https://vvidly-service.herokuapp.com/
-
+https://kashif-ghafoor-vidly.surge.sh
 #### this project is not completed yet. I do work on it as I find time.
